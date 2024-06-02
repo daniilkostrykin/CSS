@@ -7,39 +7,37 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-a{
-    color: blueviolet;
-    text-decoration: none;
+a {
+  color: blueviolet;
+  text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
-a:active{
-    color:black
+a:active {
+  color: black;
 }
-a:visited{
-    color: gold;
+a:visited {
+  color: gold;
 }
 .avatar {
   width: 200px;
   border-radius: 28px;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
-.info{
-    margin-bottom: 20px;
-    display: flex;
-
+.info {
+  margin-bottom: 20px;
+  display: flex;
 }
-@media (max-width: 700px){
-    .info{
-        text-align: center;
-        display: block;
-    }
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
 }
-.info-text{
-    margin-left: 40px;
-    margin-bottom: 10px;
-
+.info-text {
+  margin-left: 40px;
+  margin-bottom: 10px;
 }
 .info p {
   color: aqua;
@@ -61,54 +59,51 @@ a:visited{
   margin: auto;
   padding-top: 30px;
 }
-.card{
-    background-color: brown;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    text-align: center;
-
+.card {
+  background-color: brown;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
 }
-.bg-yellow{
-    background: rgb(133, 133, 5);
-
+.bg-yellow {
+  background: rgb(133, 133, 5);
 }
-.bg-green{
-    background: rgb(8, 184, 8) ;
+.bg-green {
+  background: rgb(8, 184, 8);
 }
-.contact{
-    text-align: center;
+.contact {
+  text-align: center;
 }
-.form-group label{
-    display: block;
-    font-size: 14px;
-    color:rgb(245, 245, 245)
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: rgb(245, 245, 245);
 }
 .form-group input,
-.form-group textarea{
-    width: 100%;
-    border: none;
-    background: transparent;
-    border-bottom: 1px solid;
-    color: black;
-    padding: 15px 0 10px;
-    outline: none;
-    font-family: inherit;
-
+.form-group textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
 }
-.row{
-    display: flex;
-    margin-bottom: 20px; ;
+.row {
+  display: flex;
+  margin-bottom: 20px;
 }
-.row >.form-group{
-    width: 50%;
-    margin-right: 20px;
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
 }
-.btn{
-    background: blueviolet;
-    padding: 15px 20px;
-    width: 500px;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-} 
+.btn {
+  background: blueviolet;
+  padding: 15px 20px;
+  width: 250px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
